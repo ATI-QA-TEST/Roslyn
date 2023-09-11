@@ -12,7 +12,6 @@ class Program
         int RERE;
         var reportFilePath = Environment.GetEnvironmentVariable("REPORT_FILE_PATH");
         var changedFiles = Environment.GetEnvironmentVariable("CHANGED_FILES");
-        var keywords = Environment.GetEnvironmentVariable("KEYWORDS");
 
         if (string.IsNullOrEmpty(reportFilePath))
         {
