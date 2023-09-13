@@ -6,6 +6,7 @@ namespace Roslyn
 {
     public class WriteNamingRuleReport
     {
+        int test;
         static public string WriteNonePascalClass(string className, string csFile, int lineNum)
         {
             string nonePascalClass = $"Pascal Rule (Class){Environment.NewLine}" +
