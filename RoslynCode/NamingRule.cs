@@ -6,8 +6,10 @@ using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
+//changed test2
+
 namespace Roslyn
-{  
+{ 
     public class NamingRule : WriteNamingRuleReport
     {
         int FDSF;
